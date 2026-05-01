@@ -1,10 +1,11 @@
 <?php
-session_start();
+/*session_start();
 
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 }
+    */
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +39,7 @@ if (!isset($_SESSION['user_id'])) {
     <h2 class="site-name">Artwave</h2>
     <h1>Where Every Mood Finds Its Music and Muse</h1>
     <p>Enter the Realm of Mood-Driven Music & Art</p>
-    <p>Deployed using Jenkins</p>
+    <p>Deployed using Jenkins yay</p>
     
     <!-- Get Started Button -->
     <a href="menu.php" class="get-started-btn">Get Started</a>
