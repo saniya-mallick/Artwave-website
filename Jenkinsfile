@@ -16,7 +16,8 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo 'Deploying Artwave Website...'
+                bat 'xcopy /E /I /Y * C:\\xampp\\htdocs\\Music'
+                echo 'Deployment completed successfully'
             }
         }
     }
