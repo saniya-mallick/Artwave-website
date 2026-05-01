@@ -1,7 +1,6 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "music", 3307); // Use your database name here
+$conn = new mysqli("db", "root", "root", "music_db", 3306);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

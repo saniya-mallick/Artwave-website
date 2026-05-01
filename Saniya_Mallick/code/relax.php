@@ -6,12 +6,13 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // DB connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "music_db";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "music_db";
 
-$conn = new mysqli($servername, $username, $password, $dbname, 3307);
+// $conn = new mysqli($servername, $username, $password, $dbname, 3307);
+require_once "db.php";
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
