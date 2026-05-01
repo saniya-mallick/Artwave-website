@@ -16,7 +16,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat 'xcopy /E /I /Y * C:\\xampp\\htdocs\\Music'
+                bat 'xcopy /E /I /Y Saniya_Mallick\\code\\* C:\\xampp\\htdocs\\Music'
                 echo 'Deployment completed successfully'
             }
         }
