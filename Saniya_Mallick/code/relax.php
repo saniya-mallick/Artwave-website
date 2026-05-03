@@ -130,7 +130,7 @@ if (isset($_POST['add_to_cart'])) {
   <img class="cover-image" src="https://images.unsplash.com/photo-1474022650697-7624c32312fa?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlbGF4fGVufDB8fDB8fHww" alt="Relax Mood Cover" />
 
   <h1>Relaxing Music</h1>
-    <h2> Feature update by Dhanshri </h2>
+    <h2> Feature update by Dhanshri v2 </h2>
 
   <!-- Add artwork to cart -->
   <div class="artwork-btn">
