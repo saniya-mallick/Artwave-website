@@ -131,6 +131,7 @@ if (isset($_POST['add_to_cart'])) {
 
   <h1>Relaxing Music</h1>
     <h2> Feature update by Dhanshri v2 </h2>
+    <p>updated by Dhanshri v2<p>
 
   <!-- Add artwork to cart -->
   <div class="artwork-btn">
